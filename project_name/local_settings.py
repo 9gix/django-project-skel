@@ -21,3 +21,8 @@ SECRET_KEY = '{{ secret_key }}'
 if DEBUG:
     # Show emails in the console during developement.
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+INSTALLED_APPS += ('debug_toolbar',)
+DEBUG_TOOLBAR_CONFIG = {'INTERCEPT_REDIRECTS':True}
+MIDDLEWARE_CLASSES += ('debug_toolbar.middleware.DebugToolbarMiddleware',)
+INTERNAL_IPS = ('127.0.0.1',)

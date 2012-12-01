@@ -126,8 +126,12 @@ INSTALLED_APPS = (
 
     # Internal Apps
 
-    # 3rd Party Apps
 
+    # 3rd Party Apps
+    'django_extensions',
+    'imagekit',
+    'registration',
+    'south',
 )
 
 # A sample logging configuration. The only tangible logging
