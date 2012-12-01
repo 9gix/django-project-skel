@@ -115,6 +115,7 @@ FIXTURE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    # Django Contrib Apps
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -122,6 +123,11 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.admin',
+
+    # Internal Apps
+
+    # 3rd Party Apps
+
 )
 
 # A sample logging configuration. The only tangible logging
