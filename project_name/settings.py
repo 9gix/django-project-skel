@@ -132,6 +132,7 @@ INSTALLED_APPS = (
     'imagekit',
     'registration',
     'south',
+    'tastypie',
 )
 
 # django.contrib.auth settings
