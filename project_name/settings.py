@@ -136,7 +136,6 @@ INSTALLED_APPS = (
 )
 
 # django.contrib.auth settings
-AUTH_PROFILE_MODULE = 'accounts.UserProfile'
 LOGIN_REDIRECT_URL = '/'
 
 # Django-Registration configuration
